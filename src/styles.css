@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+.searchBar{
+    width:100%;
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+.bi-trash{
+color: red;
+cursor: pointer;
+}
+button {
+    margin: 0 8px 8px 0;
+  }
+.shift-pagination{
+    float: right;
+}
+.data-selected {
+    background-color:#808080 !important
+  }
